@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* chvenshi darches da gridi dzan  ara logikuri ragaca an me var debili */
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #ECF2F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin-right: 150px;
+    width: 100%;
+    height: 62.78814489571899vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    width: 100vh;
+    gap: 40px;
+}
+
+.card1{
+    width: 540px;
+    height: 282px;
+    background-color: #733FC8;
+}
+.card2{
+    width: 255px;
+    height: 282px;
+    background-color: #48556A;
+}
+.card3{
+    width: 255px;
+    height: 585px;
+    grid-column: 3 /4;
+    grid-row: 4 / 1;
+    background-color: #ffff;
+}
+.card4{
+    /* grid-column:1 / 2 ; */
+    /* grid-row:2 / 4 ; */
+    width: 255px;
+    height: 266px;
+    background-color: #ffff;
+}
+.card5{
+    grid-column: 1 / 2;
+    grid-row: 2 / -2;
+    width: 540px;
+    height: 266px;
+    background-color: #19202D;
+}
+.box{
+    border-radius: 8px;
+}
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+img{
+    width: 40px;
+}
+
+.png{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#n1{
+    color: white;
+    font-size: 13px;
+}
+#n2{
+    font-size: 11px;
+    color: #CFCFCF;
+}
+
+.textdiv1{
+    line-height: 24px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.pdiv1{
+    line-height: 18px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: #CFCFCF;
+    font-size: 13px;
+    margin-top: 10px;
+}
+#p1{
+    color: #48556A;
+}
+
+#s1{
+    line-height: 24px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #48556A;
+}
+
